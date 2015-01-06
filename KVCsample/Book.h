@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Book : NSObject{
-@private
+//@private
+  @public
     NSString *_name;
 }
 
